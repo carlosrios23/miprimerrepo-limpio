@@ -20,7 +20,7 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i '/<!--COMMITS_SECTION_START-->/, /<!--COMMITS_SECTION_END-->/c\'"$(cat commits.md)" README.md
+          awk 'NR==FNR{a=a $0 ORS; next} /<!--COMMITS_SECTION_START-->/ {print; print a; f=1; next} /<!--COMMITS_SECTION_END-->/ {f=0} !f' commits.md README.md > temp && mv temp README.md
           rm commits.md
 
       - name: Commit changes
