@@ -1,35 +1,37 @@
-name: 📝 Update README with recent commits
+name: 📝 Actualizar commits recientes
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # Cada 12 horas
   workflow_dispatch:
-
-permissions:
-  contents: write   # 👈 Necesario para hacer push
 
 jobs:
   update-commits:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
 
-      - name: Get recent commits
-        run: |
-          echo "<!--COMMITS_SECTION_START-->" > commits.md
-          git log -n 5 --pretty=format:"- [%s](https://github.com/${{ github.repository }}/commit/%H) — %ad" --date=short >> commits.md
-          echo "" >> commits.md
-          echo "<!--COMMITS_SECTION_END-->" >> commits.md
-
-      - name: Update README safely
-        run: |
-          awk 'NR==FNR{a=a $0 ORS; next} /<!--COMMITS_SECTION_START-->/ {print; print a; f=1; next} /<!--COMMITS_SECTION_END-->/ {f=0} !f' commits.md README.md > temp && mv temp README.md
-          rm commits.md
-
-      - name: Commit and push changes
+      - name: Configurar Git
         run: |
           git config user.name "readme-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Obtener últimos commits
+        run: |
+          echo "## 📝 Últimos commits" > commits.md
+          echo "" >> commits.md
+          git log -n 5 --pretty=format:"- %s (%cr)" >> commits.md
+
+      - name: Actualizar sección en README.md
+        run: |
+          awk '/<!--COMMITS_SECTION_START-->/ {print; system("cat commits.md"); next} /<!--COMMITS_SECTION_END-->/ {found=1} !found' README.md > temp.md && mv temp.md README.md
+
+      - name: Subir cambios
+        env:
+          GITHUB_TOKEN: ${{ secrets.README_TOKEN }}
+        run: |
           git add README.md
-          git commit -m "📝 Actualizando commits recientes" || echo "No hay cambios para confirmar"
-          git push
+          git commit -m "📝 Actualizando commits recientes" || echo "Sin cambios que confirmar"
+          git push https://x-access-token:${{ secrets.README_TOKEN }}@github.com/${{ github.repository }} HEAD:main

@@ -3,8 +3,8 @@
 Este repositorio fue creado para comenzar desde cero y practicar GitHub correctamente.
 
     ## 📋 Descripción
-Aquí irán los proyectos o ejemplos que desees mantener organizados.
-
+    Tengo distintos repositorios de practica y uno solo con un proyecto personal, actualizando todo por supuesto...
+    
     ## 🧠 Temas principales
     - Programación
     - Proyectos personales
