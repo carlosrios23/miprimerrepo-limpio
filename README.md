@@ -21,5 +21,8 @@ Aquí irán los proyectos o ejemplos que desees mantener organizados.
 
 ## 📝 Últimos commits
 <!--COMMITS_SECTION_START-->
-Cargando commits recientes...
+<!--COMMITS_SECTION_START-->
+- [🔧 Workflows estables y permisos corregidos](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2999a8f7ed0910e9cccb3da6c4161403928c7541) — 2025-10-29
+<!--COMMITS_SECTION_END-->
+
 <!--COMMITS_SECTION_END-->
