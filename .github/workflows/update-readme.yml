@@ -1,28 +1,45 @@
-name: 🔄 Update README with recent GitHub activity
+name: 🧠 Actualizar README con commits recientes
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Corre cada 12 horas
+    - cron: "0 */6 * * *" # Cada 6 horas
   workflow_dispatch:
-
-permissions:
-  contents: write   # 👈 Permite al bot hacer commits
+  push:
+    branches:
+      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: 🧩 Clonar repositorio
         uses: actions/checkout@v4
 
-      - name: Update recent activity
-        uses: jamesgeorge007/github-activity-readme@v0.4.1
+      - name: ⚙️ Configurar Git
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "bot@github.com"
+
+      - name: 🪄 Generar lista de commits
+        run: |
+          echo "<!--COMMITS_SECTION_START-->" > commits.md
+          echo "### Últimos commits 🧾" >> commits.md
+          echo "" >> commits.md
+          git log -5 --pretty=format:"- %s (%cr)" >> commits.md
+          echo "" >> commits.md
+          echo "<!--COMMITS_SECTION_END-->" >> commits.md
+
+      - name: 🔄 Insertar commits en README
+        run: |
+          sed -i '/<!--COMMITS_SECTION_START-->/, /<!--COMMITS_SECTION_END-->/c\'"$(cat commits.md)" README.md
+
+      - name: 🚀 Subir cambios
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: carlosrios23
-          COMMIT_NAME: "readme-bot"
-          COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
-          COMMIT_MSG: "⚡ Actualizando actividad reciente"
-          MAX_LINES: 10
+          GITHUB_TOKEN: ${{ secrets.README_TOKEN }}
+        run: |
+          git add README.md
+          git commit -m "📝 Actualizando commits recientes" || echo "Sin cambios que subir"
+          git push https://x-access-token:${{ secrets.README_TOKEN }}@github.com/${{ github.repository }}.git main
