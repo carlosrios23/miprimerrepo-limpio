@@ -1,30 +1,38 @@
-name: 📝 Actualizar commits recientes
+name: 🧠 Actualizar README con commits recientes
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Se ejecuta cada 12 horas
+    - cron: "0 */6 * * *"  # Se ejecuta cada 6 horas
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  update-commits:
+  update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout del repositorio
+      - name: 🧩 Clonar repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Git
+      - name: ⚙️ Configurar Git
         run: |
           git config user.name "readme-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "bot@github.com"
 
-      - name: Obtener últimos commits
+      - name: 🪄 Generar lista de commits
         run: |
-          echo "## 📝 Últimos commits" > commits.md
+          echo "<!--COMMITS_SECTION_START-->" > commits.md
+          echo "### 📝 Últimos commits" >> commits.md
           echo "" >> commits.md
-          git log -n 5 --pretty=format:"- %s (%cr)" >> commits.md
+          git log -5 --pretty=format:"- %s (%cr)" >> commits.md
+          echo "" >> commits.md
+          echo "<!--COMMITS_SECTION_END-->" >> commits.md
 
-      - name: Reemplazar sección en README.md
+      - name: 🔄 Insertar commits en README (sin sed)
         run: |
           start_marker="<!--COMMITS_SECTION_START-->"
           end_marker="<!--COMMITS_SECTION_END-->"
@@ -35,10 +43,10 @@ jobs:
           ' README.md > temp.md
           mv temp.md README.md
 
-      - name: Subir cambios
+      - name: 🚀 Subir cambios al repositorio
         env:
           GITHUB_TOKEN: ${{ secrets.README_TOKEN }}
         run: |
           git add README.md
-          git commit -m "📝 Actualizando commits recientes" || echo "Sin cambios que confirmar"
+          git commit -m "🧠 Actualizando commits recientes" || echo "Sin cambios que subir"
           git push https://x-access-token:${{ secrets.README_TOKEN }}@github.com/${{ github.repository }} HEAD:main
