@@ -22,7 +22,16 @@ Este repositorio fue creado para comenzar desde cero y practicar GitHub correcta
 ## 📝 Últimos commits
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
-- [🔧 Workflows estables y permisos corregidos](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2999a8f7ed0910e9cccb3da6c4161403928c7541) — 2025-10-29
+### 📝 Últimos commits
+
+- Eliminado update-readme.yml, Modificado workflow update-commits.yml (12 seconds ago)
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+### 📝 Últimos commits
+
+- Eliminado update-readme.yml, Modificado workflow update-commits.yml (12 seconds ago)
+<!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_END-->
 
 <!--COMMITS_SECTION_END-->
