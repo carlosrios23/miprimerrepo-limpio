@@ -1,0 +1,32 @@
+name: 📝 Update README with recent commits
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-commits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get recent commits
+        run: |
+          echo "<!--COMMITS_SECTION_START-->" > commits.md
+          git log -n 5 --pretty=format:"- [%s](https://github.com/${{ github.repository }}/commit/%H) — %ad" --date=short >> commits.md
+          echo "" >> commits.md
+          echo "<!--COMMITS_SECTION_END-->" >> commits.md
+
+      - name: Update README
+        run: |
+          sed -i '/<!--COMMITS_SECTION_START-->/, /<!--COMMITS_SECTION_END-->/c\'"$(cat commits.md)" README.md
+          rm commits.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "readme-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "📝 Actualizando commits recientes" || echo "No hay cambios para confirmar"
+          git push

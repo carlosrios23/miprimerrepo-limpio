@@ -14,3 +14,12 @@ Aquí irán los proyectos o ejemplos que desees mantener organizados.
 **Carlos Ríos**  
 [![Website](https://img.shields.io/badge/Website-Visitar-blue)](https://github.com/carlosrios23)
 🇻🇪 Venezolano en 🇦🇷 Argentina
+
+## ⚡ Actividad reciente
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+## 📝 Últimos commits
+<!--COMMITS_SECTION_START-->
+Cargando commits recientes...
+<!--COMMITS_SECTION_END-->
