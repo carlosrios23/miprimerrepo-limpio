@@ -2,19 +2,24 @@ name: 🔄 Update README with recent GitHub activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # Se ejecuta cada 12 horas
+  workflow_dispatch:         # Permite ejecutarlo manualmente
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Update recent activity
         uses: jamesgeorge007/github-activity-readme@v0.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           GH_USERNAME: carlosrios23
+          COMMIT_NAME: "readme-bot"
+          COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MSG: "⚡ Actualizando actividad reciente"
           MAX_LINES: 10
