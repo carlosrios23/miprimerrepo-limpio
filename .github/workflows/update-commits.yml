@@ -5,6 +5,9 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # 👈 Necesario para hacer push
+
 jobs:
   update-commits:
     runs-on: ubuntu-latest
@@ -18,12 +21,12 @@ jobs:
           echo "" >> commits.md
           echo "<!--COMMITS_SECTION_END-->" >> commits.md
 
-      - name: Update README
+      - name: Update README safely
         run: |
           awk 'NR==FNR{a=a $0 ORS; next} /<!--COMMITS_SECTION_START-->/ {print; print a; f=1; next} /<!--COMMITS_SECTION_END-->/ {f=0} !f' commits.md README.md > temp && mv temp README.md
           rm commits.md
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "readme-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

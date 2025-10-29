@@ -2,8 +2,11 @@ name: 🔄 Update README with recent GitHub activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Se ejecuta cada 12 horas
-  workflow_dispatch:         # Permite ejecutarlo manualmente
+    - cron: "0 */12 * * *"  # Corre cada 12 horas
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 👈 Permite al bot hacer commits
 
 jobs:
   update-readme:
