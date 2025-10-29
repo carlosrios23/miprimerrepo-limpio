@@ -21,7 +21,9 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 
 ## 📝 Últimos commits
 <!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+### 📝 Últimos commits
 
-- [🔧 Workflows estables y permisos corregidos](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2999a8f7ed0910e9cccb3da6c4161403928c7541) — 2025-10-29
-
+- Correcion de archivo por error de duplicacion (16 seconds ago)
+<!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_END-->
