@@ -21,4 +21,9 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 
 ## 📝 Últimos commits
 <!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+### 📝 Últimos commits
+
+- 🧹 README completamente limpio y reconstruido (28 seconds ago)
+<!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_END-->
