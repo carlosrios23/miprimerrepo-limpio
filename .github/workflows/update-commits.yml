@@ -26,27 +26,42 @@ jobs:
       - name: 🪄 Generar lista de commits
         run: |
           echo "<!--COMMITS_SECTION_START-->" > commits.md
-          echo "### 📝 Últimos commits" >> commits.md
           echo "" >> commits.md
-          git log -5 --pretty=format:"- %s (%cr)" >> commits.md
+          git log -5 --pretty=format:"- [%s](https://github.com/${{ github.repository }}/commit/%H) — %ad" --date=format:'%Y-%m-%d %H:%M' >> commits.md
           echo "" >> commits.md
           echo "<!--COMMITS_SECTION_END-->" >> commits.md
 
-      - name: 🔄 Insertar commits en README (sin sed)
+      - name: 🔄 Insertar commits en README (versión protegida)
         run: |
           start_marker="<!--COMMITS_SECTION_START-->"
           end_marker="<!--COMMITS_SECTION_END-->"
+          
+          # Verifica que los marcadores existan
+          if ! grep -q "$start_marker" README.md || ! grep -q "$end_marker" README.md; then
+            echo "❌ Error: No se encontraron los marcadores en README.md. Abortando."
+            exit 1
+          fi
+
+          # Reemplaza solo el bloque entre los marcadores
           awk -v start="$start_marker" -v end="$end_marker" '
             $0 == start {print; system("cat commits.md"); in_block=1; next}
-            $0 == end {in_block=0}
+            $0 == end {in_block=0; next}
             !in_block
           ' README.md > temp.md
+
           mv temp.md README.md
 
       - name: 🚀 Subir cambios al repositorio
         env:
           GITHUB_TOKEN: ${{ secrets.README_TOKEN }}
         run: |
+          # Verifica tamaño del archivo antes de subir
+          size=$(wc -c < "README.md")
+          if [ "$size" -gt 200000 ]; then
+            echo "❌ README.md excede los 200 KB, abortando push para evitar inflar el repo."
+            exit 1
+          fi
+
           git add README.md
           git commit -m "🧠 Actualizando commits recientes" || echo "Sin cambios que subir"
           git push https://x-access-token:${{ secrets.README_TOKEN }}@github.com/${{ github.repository }} HEAD:main
