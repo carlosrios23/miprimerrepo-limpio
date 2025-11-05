@@ -22,8 +22,11 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 ## 📝 Últimos commits
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
-### 📝 Últimos commits
 
-- 🧹 README completamente limpio y reconstruido (28 seconds ago)
+- [Merge branch 'main' of https://github.com/carlosrios23/miprimerrepo-limpio](https://github.com/carlosrios23/miprimerrepo-limpio/commit/b503dab9d562a6d9aea4efd17d8ce2dd046aed46) — 2025-11-05 13:58
 <!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [Merge branch 'main' of https://github.com/carlosrios23/miprimerrepo-limpio](https://github.com/carlosrios23/miprimerrepo-limpio/commit/b503dab9d562a6d9aea4efd17d8ce2dd046aed46) — 2025-11-05 13:58
 <!--COMMITS_SECTION_END-->
