@@ -23,20 +23,40 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/1c1a9f013d305c6cf822fef99aa5532743b28bed) — 2025-11-05 16:59
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/1c1a9f013d305c6cf822fef99aa5532743b28bed) — 2025-11-05 16:59
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/1c1a9f013d305c6cf822fef99aa5532743b28bed) — 2025-11-05 16:59
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/1c1a9f013d305c6cf822fef99aa5532743b28bed) — 2025-11-05 16:59
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/8c307219d630daa65d47a9ad414453ccfd45ef84) — 2025-11-05 18:20
 <!--COMMITS_SECTION_END-->
