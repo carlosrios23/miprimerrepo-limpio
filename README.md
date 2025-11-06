@@ -23,80 +23,160 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
 <!--COMMITS_SECTION_START-->
 <!--COMMITS_SECTION_START-->
 
-- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/2badc00abdaab511ea5ee4216333cdbade008103) — 2025-11-06 01:07
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
+<!--COMMITS_SECTION_END-->
+<!--COMMITS_SECTION_START-->
+<!--COMMITS_SECTION_START-->
+
+- [🧠 Actualizando commits recientes](https://github.com/carlosrios23/miprimerrepo-limpio/commit/82628f7ab7e6e64199276e75d9b90eca28db19fa) — 2025-11-06 06:22
 <!--COMMITS_SECTION_END-->
