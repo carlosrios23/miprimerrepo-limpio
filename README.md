@@ -21,9 +21,3 @@ Tengo distintos repositorios de práctica y uno solo con un proyecto personal, a
 ## ⚡ Actividad reciente
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-
-### 📝 Últimos commits
-
-- 🧹 README completamente limpio y reconstruido (28 seconds ago)
-<!--COMMITS_SECTION_END-->
-<!--COMMITS_SECTION_END-->
